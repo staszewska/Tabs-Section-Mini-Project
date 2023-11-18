@@ -15,8 +15,9 @@ body {
 }
 
 .tabs__container {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 476px;
+    padding: 10px;
 }
 
 img {
@@ -28,7 +29,47 @@ img {
 
 .img__container {
     max-width: 500px;
-    height: 500px;
+    height: 477px;
     padding: 20px;
     margin: 20px;
+}
+
+button {
+    background-color: #8dc6ff;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button:hover {
+    background-color: #22313f;
+}
+
+.button2 {
+    background-color: #e4f1fe;
+}
+
+.button3 {
+    background-color: #e4f1fe;
+}
+
+.buttons__container {
+    font-size: 0;
+}
+
+.tabs__content2 {
+    display: none;
+}
+
+.tabs__content3 {
+    display: none;
+}
+
+.tabs {
+    background-color:#8dc6ff;
 }
