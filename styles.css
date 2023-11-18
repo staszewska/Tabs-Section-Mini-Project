@@ -47,10 +47,13 @@ img {
 }
 
 .img__container {
-    height: 477px;
+    height: 25rem;
+    width: 25rem;
     padding: 20px;
     margin: 20px;
-    flex: 1;
+    background-image: url("regents-street-london-england.avif");
+    background-size: cover;
+    border-radius: 50%;
 }
 
 button {
@@ -91,5 +94,4 @@ button:hover {
 
 .tabs {
     background-color:#8dc6ff;
-    flex: 1;
 }
