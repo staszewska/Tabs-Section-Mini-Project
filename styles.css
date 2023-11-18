@@ -2,6 +2,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+
 .container {
     display: flex;
     justify-content: center;
@@ -14,6 +15,24 @@ body {
     padding: 5rem 0;
 }
 
+@media screen and (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .tabs__container {
     height: 400px;
     width: 476px;
@@ -23,15 +42,15 @@ body {
 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 50%;
 }
 
 .img__container {
-    max-width: 500px;
     height: 477px;
     padding: 20px;
     margin: 20px;
+    flex: 1;
 }
 
 button {
@@ -72,4 +91,5 @@ button:hover {
 
 .tabs {
     background-color:#8dc6ff;
+    flex: 1;
 }
